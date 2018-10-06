@@ -4,7 +4,7 @@ This is an experimental module *Files2.Mod* with enhanced procedures handling mu
 
 Both *ReadBytes()*, *WriteBytes()*, could be helpful when storing and loading program data structures with regular files. Typical code pattern could be like this.
 
-**Loading stuct from file**
+**Loading struct from file**
 
 	IMPORT S := SYSTEM;
 	...
