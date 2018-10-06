@@ -5,6 +5,7 @@ This is an experimental module *Files2.Mod* with enhanced procedures handling mu
 Both *ReadBytes()*, *WriteBytes()*, could be helpful when storing and loading program data structures with regular files. Typical code pattern could be like this.
 
 **Loading stuct from file**
+
 	IMPORT S := SYSTEM;
 	...
 	TYPE
@@ -19,6 +20,7 @@ Both *ReadBytes()*, *WriteBytes()*, could be helpful when storing and loading pr
 	r1 := S.VAL(R1, S.ADR(buf));
 
 **Loading array from file**
+
 	IMPORT S := SYSTEM;
 	...
 	TYPE
@@ -32,10 +34,10 @@ Both *ReadBytes()*, *WriteBytes()*, could be helpful when storing and loading pr
 
 Storing is analogous.
 
-# Test module
+**Test module**
 
-FilesTest.Mod - unit test with common cases
-FilesTest - input data file
-FilesTest2 - output data file
-Out.Mod - console output
+	FilesTest.Mod - unit test with common cases
+	FilesTest - input data file
+	FilesTest2 - output data file
+	Out.Mod - console output
 
