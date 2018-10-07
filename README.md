@@ -41,3 +41,9 @@ Storing is analogous.
 	FilesTest2 - output data file
 	Out.Mod - console output
 
+# TODO
+
+Improve *r.eof*, *.r.res* handling
+
+
+
